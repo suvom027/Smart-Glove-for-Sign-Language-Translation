@@ -37,22 +37,30 @@ We designed an intuitive **PC interface** that:
 - **Provides a speech output for detected signs**  
 
 ## Hardware Design  
-### Flex Sensors  
-- **Measures finger bending** using a **voltage divider circuit**.  
-- The resistance increases from **10kΩ (straight)** to **27kΩ (fully bent)**.  
-![Image]()
-
 <h1 align= "center">
 
-**Flex Sensor**
+**Flex Sensor**  
+- **Measures finger bending** using a **voltage divider circuit**.  
+- The resistance increases from **10kΩ (straight)** to **27kΩ (fully bent)**.  
+
+
+
 </h1>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/808d4c90-d974-4515-9f5c-791676281a4e", width="400">
 </p>
 
-### MPU6050 Gyroscope  
+
+<h1 align= "center">
+
+**MPU6050 Gyroscope** 
 - Captures **hand orientation and motion**.  
 - Communicates with STM32 via **I2C protocol**.  
+
+</h1>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d2092f1c-6772-4eb1-a3f3-5ae3865361e3", width="400">
+</p>
 
 ### Contact Sensors  
 - Helps differentiate **similar hand gestures** (e.g., "U" vs. "V").  
