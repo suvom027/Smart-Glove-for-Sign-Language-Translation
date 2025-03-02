@@ -4,7 +4,7 @@ By [Suvom Karmakar](https://github.com/suvom027), [Sazzad Hossen], [Md. Tahman H
 ## [Click for Open Source of Project Details & Video](https://drive.google.com/drive/folders/1yu-9_WyVDk-NrpyH5Hro_kwHfU4WFT18?usp=sharing)
 
 ## Table of Contents
--[Abstract](#abstract)
+- [Abstract](#abstract)
 - [Introduction](#introduction)
 - [Components](#components)
 - [Methodology](#methodology)
@@ -15,7 +15,7 @@ By [Suvom Karmakar](https://github.com/suvom027), [Sazzad Hossen], [Md. Tahman H
 - [American Sign Language (ASL)](#american-sign-language-(ASL))
 -[Application](#application)
 - [Conclusion](#conclusion)
-- 
+   
 ## Abstract  
 Many people with hearing or speech impairments use sign language to communicate, but most of the general population does not understand it. This creates a communication barrier in daily life.  
 
