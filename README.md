@@ -40,12 +40,13 @@ We designed an intuitive **PC interface** that:
 <h1 align= "center">
 
 **Flex Sensor**  
+</h1>
 - **Measures finger bending** using a **voltage divider circuit**.  
 - The resistance increases from **10kΩ (straight)** to **27kΩ (fully bent)**.  
 
 
 
-</h1>
+
 <p align="center">
 <img src="https://github.com/user-attachments/assets/808d4c90-d974-4515-9f5c-791676281a4e", width="400">
 </p>
@@ -54,10 +55,10 @@ We designed an intuitive **PC interface** that:
 <h1 align= "center">
 
 **MPU6050 Gyroscope** 
+</h1>
 - Captures **hand orientation and motion**.  
 - Communicates with STM32 via **I2C protocol**.  
 
-</h1>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/d2092f1c-6772-4eb1-a3f3-5ae3865361e3", width="400">
 </p>
@@ -89,11 +90,32 @@ We designed an intuitive **PC interface** that:
 - **Real-time prediction** without requiring a button press.  
 - **Noise filtering** improves accuracy.  
 
-## Results & Analysis  
+<h1 align= "center">
+
+**Results & Analysis**
+</h1>
 Our **smart glove** successfully recognizes **28 ASL signs**, achieving:  
 - **98% accuracy** for trained users.  
 - **Satisfactory results** for non-trained users.  
 - **Smooth real-time recognition** (prediction speed: ~3 times per second).  
+
+### ASL Sign "A"
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03" width="620">
+</p>
+<p align="center"><b>Figure 1:</b> ASL Sign "A"</p>
+
+### ASL Sign "B"
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9a2a77b8-9225-4be9-91e5-8eed38ac35b5" width="620">
+</p>
+<p align="center"><b>Figure 2:</b> ASL Sign "B"</p>
+
+### ASL Sign "L"
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd" width="620">
+</p>
+<p align="center"><b>Figure 3:</b> ASL Sign "L"</p>
 
 ## Applications  
 - **Assistive technology for speech-impaired individuals**  
