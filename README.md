@@ -109,8 +109,8 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
 </p>
 
 <p align="center">
-    <strong>Hardware-Detected ASL "A"</strong>
-    <strong>Hardware-Detected ASL "B"</strong>
+    <strong>Fig: Hardware-Detected ASL "A", </strong>
+    <strong>Hardware-Detected ASL "B", </strong>
     <strong>Hardware-Detected ASL "L"</strong>
 </p>
 
