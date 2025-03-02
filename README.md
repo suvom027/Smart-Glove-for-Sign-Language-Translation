@@ -40,6 +40,15 @@ We designed an intuitive **PC interface** that:
 ### Flex Sensors  
 - **Measures finger bending** using a **voltage divider circuit**.  
 - The resistance increases from **10kΩ (straight)** to **27kΩ (fully bent)**.  
+![Image]()
+
+<h1 align= "center">
+
+**Flex Sensor**
+</h1>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/808d4c90-d974-4515-9f5c-791676281a4e", width="400">
+</p>
 
 ### MPU6050 Gyroscope  
 - Captures **hand orientation and motion**.  
