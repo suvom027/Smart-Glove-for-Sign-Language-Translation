@@ -81,14 +81,16 @@ We designed an intuitive **PC interface** that:
 - **Real-time prediction** without requiring a button press.  
 - **Noise filtering** improves accuracy.  
 
-<h1 align= "center">
-
-**Results & Analysis**
+<h1 align="center">
+    <strong>Results & Analysis</strong>
 </h1>
-Our **smart glove** successfully recognizes **28 ASL signs**, achieving:  
-- **98% accuracy** for trained users.  
-- **Satisfactory results** for non-trained users.  
-- **Smooth real-time recognition** (prediction speed: ~3 times per second).  
+<p>Our <strong>smart glove</strong> successfully recognizes <strong>28 ASL signs</strong>, achieving:</p>
+<ul>
+    <li><strong>98% accuracy</strong> for trained users.</li>
+    <li><strong>Satisfactory results</strong> for non-trained users.</li>
+    <li><strong>Smooth real-time recognition</strong> (prediction speed: ~3 times per second).</li>
+</ul>
+
 
 ## American Sign Language (ASL)
 
