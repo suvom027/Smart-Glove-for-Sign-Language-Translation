@@ -35,40 +35,31 @@ We designed an intuitive **PC interface** that:
 - **Displays recognized gestures in real-time**  
 - **Allows debugging and visualization of sensor data**  
 - **Provides a speech output for detected signs**  
-
 ## Hardware Design  
-<h1 align= "center">
 
-**Flex Sensor**  
-</h1>
+### Flex Sensor  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/808d4c90-d974-4515-9f5c-791676281a4e" width="400">
+</p>
+<p align="center"><b>Figure 1:</b> Flex Sensor</p>
+
 - **Measures finger bending** using a **voltage divider circuit**.  
 - The resistance increases from **10kΩ (straight)** to **27kΩ (fully bent)**.  
 
-
-
-
+### MPU6050 Gyroscope  
 <p align="center">
-<img src="https://github.com/user-attachments/assets/808d4c90-d974-4515-9f5c-791676281a4e", width="400">
+  <img src="https://github.com/user-attachments/assets/d2092f1c-6772-4eb1-a3f3-5ae3865361e3" width="400">
 </p>
+<p align="center"><b>Figure 2:</b> MPU6050 Gyroscope</p>
 
-
-<h1 align= "center">
-
-**MPU6050 Gyroscope** 
-</h1>
 - Captures **hand orientation and motion**.  
 - Communicates with STM32 via **I2C protocol**.  
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/d2092f1c-6772-4eb1-a3f3-5ae3865361e3", width="400">
-</p>
 
 ### Contact Sensors  
 - Helps differentiate **similar hand gestures** (e.g., "U" vs. "V").  
 
 ### Voltage Regulation  
 - The STM32 operates at **3.3V**, ensuring compatibility with all sensors.  
-
 
 <h1 align= "center">
 
@@ -99,23 +90,30 @@ Our **smart glove** successfully recognizes **28 ASL signs**, achieving:
 - **Satisfactory results** for non-trained users.  
 - **Smooth real-time recognition** (prediction speed: ~3 times per second).  
 
-### ASL Sign "A"
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03" width="620">
-</p>
-<p align="center"><b>Figure 1:</b> ASL Sign "A"</p>
+## American Sign Language (ASL)
 
-### ASL Sign "B"
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9a2a77b8-9225-4be9-91e5-8eed38ac35b5" width="620">
-</p>
-<p align="center"><b>Figure 2:</b> ASL Sign "B"</p>
+To ensure accuracy, we compare the **reference ASL signs** with the **hardware-detected ASL signs**. Below are the comparisons:
 
-### ASL Sign "L"
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd" width="620">
+<strong>Reference ASL</strong><br>
+<img src="https://github.com/user-attachments/assets/d518ab70-33e3-400e-8761-d8e78f819548" width="300">
 </p>
-<p align="center"><b>Figure 3:</b> ASL Sign "L"</p>
+
+<p align="center">
+<strong>Hardware-Detected ASL "A"</strong><br>
+<img src="https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03" width="300">
+</p>
+
+
+<p align="center">
+<strong>Hardware-Detected ASL "B"</strong><br>
+<img src="https://github.com/user-attachments/assets/9a2a77b8-9225-4be9-91e5-8eed38ac35b5" width="300">
+</p>
+
+<p align="center">
+<strong>Hardware-Detected ASL "L"</strong><br>
+<img src="https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd" width="300">
+</p>
 
 ## Applications  
 - **Assistive technology for speech-impaired individuals**  
