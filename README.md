@@ -18,11 +18,14 @@ Unlike traditional designs using low-power microcontrollers, our implementation 
 
 By employing **machine learning** for gesture classification, we ensure a highly **accurate and efficient** system.
 
-## Components  
-- **Smart Glove:** Equipped with flex sensors, MPU6050, and contact sensors.  
-- **STM32 Microcontroller:** Processes sensor data and transmits it to a computer.  
-- **Computer & Python Algorithm:** Executes **machine learning-based** gesture classification.  
-
+ <h2>Components</h2>
+    <ul>
+        <li><strong>Smart Glove:</strong> Equipped with flex sensors, MPU6050, and contact sensors.</li>
+        <li><strong>STM32 Microcontroller:</strong> Processes sensor data and transmits it to a computer.</li>
+        <img src="https://github.com/user-attachments/assets/4b3adb00-7b06-465b-9c64-5ea7aa2b9514" alt="STM32 Microcontroller" width="300">
+        <li><strong>Computer & Python Algorithm:</strong> Executes <strong>machine learning-based</strong> gesture classification.</li>
+    </ul>
+    
 ## Methodology  
 The system converts hand gestures into text using a structured **sensor-data pipeline**:  
 1. **Sensors Capture Gestures:** Flex sensors track finger movement, MPU6050 captures motion, and contact sensors detect finger contact.  
@@ -38,11 +41,8 @@ The system converts hand gestures into text using a structured **sensor-data pip
 <p align="center">
     <strong>Figure 1: Sensor-Data Pipeline Flowchart</strong>
 </p>
-## User Interface  
-We designed an intuitive **PC interface** that:  
-- **Displays recognized gestures in real-time**  
-- **Allows debugging and visualization of sensor data**  
-- **Provides a speech output for detected signs**  
+
+
 ## Hardware Design  
 
 ### Flex Sensor  
@@ -126,7 +126,7 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
     <strong>Hardware-Detected ASL "L"</strong>
 </p>
 
- ##Application
+ ## Application
 - The **Smart Glove for Sign Language Translation** provides an innovative solution for speech-impaired individuals, enabling them to communicate more efficiently by translating hand gestures into text and speech. The system leverages an STM32 microcontroller and an MPU6050 gyroscope to track hand movements and orientation, ensuring precise real-time performance. Communication is facilitated through USART TTL, allowing seamless interaction and conversion of gestures.
 
 - This project finds its primary application in assistive technology, acting as a bridge for individuals who rely on sign language. It also holds significant promise for gesture-based control systems, allowing it to be used as a controller for various devices by recognizing specific hand movements and translating them into commands. Moreover, the glove has the potential to transform interactive computing and gaming, enabling gesture-based inputs that create a more immersive and intuitive experience for users.
