@@ -51,6 +51,15 @@ We designed an intuitive **PC interface** that:
 ### Voltage Regulation  
 - The STM32 operates at **3.3V**, ensuring compatibility with all sensors.  
 
+
+<h1 align= "center">
+
+**Hardware Implementation**
+</h1>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c1a4a7ee-3fa4-43f0-bfc2-c602250caefe", width="620">
+</p>
+
 ## Software Implementation  
 ### I2C Communication  
 - Enables STM32 to communicate with the **MPU6050 sensor**.  
