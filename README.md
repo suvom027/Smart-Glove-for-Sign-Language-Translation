@@ -103,7 +103,7 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
 
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03" width="2700">
+    <img src="https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03" width="270">
     <img src="https://github.com/user-attachments/assets/9a2a77b8-9225-4be9-91e5-8eed38ac35b5" width="300">
     <img src="https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd" width="245">
 </p>
