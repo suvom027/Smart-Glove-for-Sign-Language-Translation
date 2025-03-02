@@ -101,22 +101,12 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
 <img src="https://github.com/user-attachments/assets/d518ab70-33e3-400e-8761-d8e78f819548" width="300">
 </p>
 
-<p align="center">
-<strong>Hardware-Detected ASL "A"</strong><br>
-<img src="https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03" width="300">
-</p>
 
-
-<p align="center">
-<strong>Hardware-Detected ASL "B"</strong><br>
-<img src="https://github.com/user-attachments/assets/9a2a77b8-9225-4be9-91e5-8eed38ac35b5" width="300">
-</p>
-
-<p align="center">
-<strong>Hardware-Detected ASL "L"</strong><br>
-<img src="https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd" width="300">
-</p>
-
+| **Hardware-Detected ASL** |
+|:--------------------------:|
+| ![Hardware-Detected ASL "A"](https://github.com/user-attachments/assets/0441eb5f-b764-42ea-9125-8c29abb8cc03) |
+| ![Hardware-Detected ASL "B"](https://github.com/user-attachments/assets/9a2a77b8-9225-4be9-91e5-8eed38ac35b5) |
+| ![Hardware-Detected ASL "L"](https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd) |
 ## Applications  
 - **Assistive technology for speech-impaired individuals**  
 - **Gesture-based control systems**  
