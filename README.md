@@ -30,6 +30,14 @@ The system converts hand gestures into text using a structured **sensor-data pip
 3. **Data Transmission:** The processed data is sent to a **PC via a serial connection**.  
 4. **Machine Learning Classification:** The **Python-based machine learning model** recognizes gestures and converts them into text/speech output.
 
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/5a535e1c-dfcd-46b4-8f35-41df85a9a1af" width="500">
+</p>
+
+<p align="center">
+    <strong>Figure 1: Sensor-Data Pipeline Flowchart</strong>
+</p>
 ## User Interface  
 We designed an intuitive **PC interface** that:  
 - **Displays recognized gestures in real-time**  
@@ -56,7 +64,11 @@ We designed an intuitive **PC interface** that:
 - Communicates with STM32 via **I2C protocol**.  
 
 ### Contact Sensors  
-- Helps differentiate **similar hand gestures** (e.g., "U" vs. "V").  
+- Helps differentiate **similar hand gestures** (e.g., "U" vs. "V").
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/d9e72bc5-df8d-4d6c-b207-72dbd8cf0b41" width="300">
+</p>
 
 ### Voltage Regulation  
 - The STM32 operates at **3.3V**, ensuring compatibility with all sensors.  
@@ -98,7 +110,7 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
 
 <p align="center">
 <strong>Reference ASL</strong><br>
-<img src="https://github.com/user-attachments/assets/d518ab70-33e3-400e-8761-d8e78f819548" width="300">
+<img src="https://github.com/user-attachments/assets/d518ab70-33e3-400e-8761-d8e78f819548" width="400">
 </p>
 
 
