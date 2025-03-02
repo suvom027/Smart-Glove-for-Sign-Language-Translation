@@ -108,6 +108,12 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
     <img src="https://github.com/user-attachments/assets/56ca4392-c7bf-44d3-8111-316ea302dedd" width="250">
 </p>
 
+<p align="center">
+    <strong>Hardware-Detected ASL "A"</strong>
+    <strong>Hardware-Detected ASL "B"</strong>
+    <strong>Hardware-Detected ASL "L"</strong>
+</p>
+
 ## Applications  
 - **Assistive technology for speech-impaired individuals**  
 - **Gesture-based control systems**  
