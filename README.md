@@ -3,6 +3,19 @@ By [Suvom Karmakar](https://github.com/suvom027), [Sazzad Hossen], [Md. Tahman H
 
 ## [Click for Open Source of Project Details & Video](https://drive.google.com/drive/folders/1yu-9_WyVDk-NrpyH5Hro_kwHfU4WFT18?usp=sharing)
 
+## Table of Contents
+-[Abstract](#abstract)
+- [Introduction](#introduction)
+- [Components](#components)
+- [Methodology](#methodology)
+- [Hardware Design](#hardware-design)
+- [Hardware Implementation](#hardware-implementation)
+- [Software Implementation](#software-implementation)
+- [Results & Analysis](#results-&-analysis)
+- [American Sign Language (ASL)](#american-sign-language-(ASL))
+-[Application](#application)
+- [Conclusion](#conclusion)
+- 
 ## Abstract  
 Many people with hearing or speech impairments use sign language to communicate, but most of the general population does not understand it. This creates a communication barrier in daily life.  
 
@@ -22,7 +35,9 @@ By employing **machine learning** for gesture classification, we ensure a highly
     <ul>
         <li><strong>Smart Glove:</strong> Equipped with flex sensors, MPU6050, and contact sensors.</li>
         <li><strong>STM32 Microcontroller:</strong> Processes sensor data and transmits it to a computer.</li>
-        <img src="https://github.com/user-attachments/assets/4b3adb00-7b06-465b-9c64-5ea7aa2b9514" alt="STM32 Microcontroller" width="300">
+        <p align="center">
+   <img src="https://github.com/user-attachments/assets/4b3adb00-7b06-465b-9c64-5ea7aa2b9514" alt="STM32 Microcontroller" width="300">
+</p>
         <li><strong>Computer & Python Algorithm:</strong> Executes <strong>machine learning-based</strong> gesture classification.</li>
     </ul>
     
