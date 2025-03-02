@@ -32,7 +32,7 @@ The system converts hand gestures into text using a structured **sensor-data pip
 
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/5a535e1c-dfcd-46b4-8f35-41df85a9a1af" width="500">
+    <img src="https://github.com/user-attachments/assets/5a535e1c-dfcd-46b4-8f35-41df85a9a1af" width="360">
 </p>
 
 <p align="center">
@@ -126,13 +126,10 @@ To ensure accuracy, we compare the **reference ASL signs** with the **hardware-d
     <strong>Hardware-Detected ASL "L"</strong>
 </p>
 
-## Applications  
-- **Assistive technology for speech-impaired individuals**  
-- **Gesture-based control systems**  
-- **Interactive computing and gaming**  
+ ##Application
+- The **Smart Glove for Sign Language Translation** provides an innovative solution for speech-impaired individuals, enabling them to communicate more efficiently by translating hand gestures into text and speech. The system leverages an STM32 microcontroller and an MPU6050 gyroscope to track hand movements and orientation, ensuring precise real-time performance. Communication is facilitated through USART TTL, allowing seamless interaction and conversion of gestures.
+
+- This project finds its primary application in assistive technology, acting as a bridge for individuals who rely on sign language. It also holds significant promise for gesture-based control systems, allowing it to be used as a controller for various devices by recognizing specific hand movements and translating them into commands. Moreover, the glove has the potential to transform interactive computing and gaming, enabling gesture-based inputs that create a more immersive and intuitive experience for users.
 
 ## Conclusion  
-The **Smart Glove for Sign Language Translation** effectively converts **hand gestures into text and speech**, offering **high accuracy and real-time performance**. Future improvements will focus on:  
-- **Wireless communication** (Bluetooth integration).  
-- **Enhanced contact sensor accuracy**.  
-- **Optimizing portability and comfort**.
+In conclusion, the **Smart Glove for Sign Language Translation** is a groundbreaking project that empowers speech-impaired individuals by converting hand gestures into text and speech, enabling smoother communication. The glove delivers accurate real-time performance by integrating an STM32 microcontroller, MPU6050 gyroscope, and USART TTL for communication. Beyond assisting individuals with sign language, this technology has broad applications in gesture-based control systems, interactive computing, and gaming, offering a more natural and immersive way to interact with devices. The project's potential to impact various fields makes it a significant innovation in both assistive technology and human-computer interaction.
