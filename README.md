@@ -1,5 +1,5 @@
 # Smart Glove for Sign Language Translation  
-By [Azad Hossain Saykat], [Sazzad Hossen], [Suvom Karmakar](https://github.com/suvom027) [Md. Tahman Hossain], and [Sabiha Hossain Mim].
+By Azad Hossain Saykat, Sazzad Hossen, [Suvom Karmakar](https://github.com/suvom027), Md. Tahman Hossain, and Sabiha Hossain Mim.
 
 ## [Click for Open Source of Project Details & Video](https://drive.google.com/drive/folders/1yu-9_WyVDk-NrpyH5Hro_kwHfU4WFT18?usp=sharing)
 
