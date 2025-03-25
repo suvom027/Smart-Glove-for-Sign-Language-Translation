@@ -1,5 +1,5 @@
 # Smart Glove for Sign Language Translation  
-By [Suvom Karmakar](https://github.com/suvom027), [Sazzad Hossen], [Md. Tahman Hossain], [Azad Hossain Saykat], and [Sabiha Hossain Mim].
+By [Azad Hossain Saykat], [Sazzad Hossen], [Suvom Karmakar](https://github.com/suvom027) [Md. Tahman Hossain], and [Sabiha Hossain Mim].
 
 ## [Click for Open Source of Project Details & Video](https://drive.google.com/drive/folders/1yu-9_WyVDk-NrpyH5Hro_kwHfU4WFT18?usp=sharing)
 
@@ -40,7 +40,15 @@ By employing **machine learning** for gesture classification, we ensure a highly
 </p>
         <li><strong>Computer & Python Algorithm:</strong> Executes <strong>machine learning-based</strong> gesture classification.</li>
     </ul>
-    
+
+## Software Used
+ <h2>Software:</h2>
+    <ul>
+        <li><strong>STM32CubeIDE</li>
+        <li><strong>STM32 ST-Link</strong></li>
+        <li><strong>PyCharm</strong></li>
+    </ul>
+
 ## Methodology  
 The system converts hand gestures into text using a structured **sensor-data pipeline**:  
 1. **Sensors Capture Gestures:** Flex sensors track finger movement, MPU6050 captures motion, and contact sensors detect finger contact.  
